@@ -25,43 +25,11 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display:block;
+footer, header, hgroup, menu, nav, section
+
 }
 body {
 	line-height: 1;
-}
-.btn1{
-    background-color:white;
-    color: black;
-    border: 0px;
-    border-radius:60rem;
-    margin-right: 5%;
-    margin-left: 10%;
-    height: 3rem;
-    width: 10rem;
-    border: none;
-}
-.btn2{
-    background-color:white;
-    color: black;
-    border: 0px;}
-.btn3{
-    background-color:white;
-    color: black;
-    border: 0px;
-}
-
-.btn4{
-    background-color:white;
-    color: black;
-    border: 0px;
-}
-
-.btn5{
-    background-color:white;
-    color: black;
-    border: 0px;
 }
 
 ol, ul {
@@ -144,7 +112,7 @@ p {
     align-items: center;
     justify-content: center;
     }
-    
+
 .box1{
     background-color: teal;
     width: 12.5%;
@@ -259,22 +227,43 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
+.aboutpic {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    justify-content: center;
 }
 
-footer nav a {
-    color: white;
-    text-decoration: none;
+.headlinks{
+    display: flex;
+    color: black;
+    justify-content: center;
+    margin-bottom:5rem;
 }
+
+.headlinks a {
+    text-decoration: none;
+    color: black; 
+    margin-right: 3.9rem;
+}
+.headlinks img {
+    margin-right: 3.9rem;
+}
+    footer {
+        width: 65%;
+        background: black;
+        margin-left: 25rem;
+        padding: 5px;
+        }
+    
+    footer nav {
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 2%;
+        font-size: 14px;
+        margin-right: 3.9rem;
+    }
+    
+    footer nav a {
+        color: white;
+        text-decoration: none;
