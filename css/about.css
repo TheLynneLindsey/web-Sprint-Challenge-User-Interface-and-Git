@@ -33,51 +33,34 @@ body {
 }
 .firstpara{
     border-bottom: 1px dashed;
-    width:73%;
-}
-.aboutplan{
-    width: 40%;
-    padding: 12px; 
-    border-bottom: 1px dashed;
-}
-
-.aboutworking {
-    width: 40%;
-    padding: 10px; 
-    border-bottom: 1px dashed;
-}
-
-.workplace {
-    width: 40%;
-    padding: 10px; 
-    border-bottom: 1px dashed;
-}
-.aboutmeeting {
-    width: 40%;
-    padding: 10px; 
-    border-bottom: 1px dashed;
-}
-
-.container1 {
+    width:50%;
     display: flex;
-
-}
-.container2 {
-    display: flex;
-}
-
-section {
     margin-left: 24%;
+    margin-right: 50rem;
+    padding: 10px;
+}
+
+.aboutplan{
+    border-bottom: 1px dashed;
+    margin: 20px 2%;
+    text-align: left;
+}
+
+h1{
+    margin-left: 21rem;
 }
 
 p {
-   display: inline-block; 
-   justify-content: center;
-   padding: 15px;
- 
-
+  text-align: left;
 }
 
+.allthestuff{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'roboto';
+}
 .button1 {
     border-radius: 20px;
     border-color: black;
@@ -151,9 +134,16 @@ table {
     justify-content: center;
     padding: 10px;
 }
-
+h4{
+    margin-left: 21rem;
+    font-family: 'roboto';
+}
 .worktogether{
-     padding: 10px;
+     display: flex;
+     margin-left: 24%;
+     width: 50%;
+     margin-right: 50rem;
+     font-family: 'roboto';
 }
 footer {
     width: 65%;
@@ -175,3 +165,9 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+hr {
+    clear: both;
+    visibility: hidden;
+    }
