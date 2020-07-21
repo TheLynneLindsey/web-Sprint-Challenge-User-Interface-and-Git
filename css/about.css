@@ -28,21 +28,21 @@ body {
 
 .aboutplan{
     width: 40%;
-    padding: 5px;   
+    padding: 10px;   
 }
 
 .aboutworking {
     width: 40%;
-    padding: 5px; 
+    padding: 10px; 
 }
 
 .workplace {
     width: 40%;
-    padding: 5px; 
+    padding: 10px; 
 }
 .aboutmeeting {
     width: 40%;
-    padding: 5px; 
+    padding: 10px; 
 }
 
 .container1 {
@@ -60,6 +60,7 @@ section {
 p {
    display: inline-block; 
    justify-content: center;
+   padding: 10px;
 }
 
 .button1 {
@@ -124,24 +125,25 @@ table {
 .headlinks a {
     text-decoration: none;
     color: black; 
-    margin-right: 3.9rem;
+    margin-right: 4.8rem;
 }
 .headlinks img {
-    margin-right: 3.9rem;
+    margin-right: 1.9rem;
 }
 .firstpic {
     display: flex;
     justify-content: center;
+    padding: 10px;
 }
 
 .worktogether{
-    margin-left: 5%;
+    margin-left: 1%;
     padding: 10px;
 }
 footer {
     width: 65%;
     background: black;
-    margin-left: 25rem;
+    margin-left: 20rem;
     padding: 5px;
     }
 
