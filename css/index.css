@@ -78,21 +78,24 @@ p {
 .top-content .text-container {
     width: 16%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px; 
+    margin-left: 20px; 
 }
 
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;.
     display: block;
-    align-items: center;
-    justify-content: center;
 }
 
+.why {
+    margin-left: 80px;
+    display: block;
+}
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
-    
+    align-items: center;
 }
 
 .middle-content .boxes {
@@ -105,6 +108,25 @@ p {
     background: black;
     color: white;
     }
+
+.boxset1 {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.boxset2 {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
 
 .box1{
     background-color: teal;
@@ -212,7 +234,7 @@ p {
     margin: 0 2% 20px;
     justify-content: space-around;
     width: 65%;
-    margin-left: 26%;
+    margin-left: 22%;
 }
 
 .bottom-content .text-container {
@@ -243,7 +265,7 @@ p {
     margin-right: 3.9rem;
 }
     footer {
-        width: 65%;
+        width: 55%;
         background: black;
         margin-left: 25rem;
         padding: 5px;
@@ -256,7 +278,7 @@ p {
         align-items: center;
         padding: 20px 2%;
         font-size: 14px;
-        margin-right: 40%;
+        margin-right: 20%;
     }
     
     footer nav a {
