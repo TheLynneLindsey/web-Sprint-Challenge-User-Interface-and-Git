@@ -25,12 +25,13 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+footer, header, hgroup, menu, nav, section
+
 }
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -56,15 +57,10 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
-}
-
 p {
     line-height: 1.4;
 }
+
 
 .container {
     width: 800px;
@@ -80,19 +76,27 @@ p {
 }
 
 .top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    width: 17%;
+    padding: 1%;
+    padding-bottom: 20px; 
+    margin-left: 20px; 
 }
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    border-bottom: 1px dashed black;.
+    display: block;
 }
 
+.why {
+    display: flex;
+    justify-content: space-around;
+    width: 62%;
+}
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+    align-items: center;
 }
 
 .middle-content .boxes {
@@ -102,9 +106,123 @@ p {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
     background: black;
+    color: white;
+    }
+
+.boxset1 {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.boxset2 {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1{
+    background-color: teal;
+    width: 6.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2{
+    background-color: gold;
+    width: 6.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+    background-color: cadetblue;
+    width: 6.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4{
+    background-color: coral;
+    width: 6.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5{
+    background-color: crimson;
+    width: 6.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6{
+    background-color: forestgreen;
+    width: 6.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7{
+    background-color: darkorchid;
+    width: 6.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8{
+    background-color: hotpink;
+    width: 6.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9{
+    background-color: indigo;
+    width: 6.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10{
+    background-color: dodgerblue;
+    width: 6.5%;
+    height: 100px;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -116,6 +234,8 @@ p {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    width: 65%;
+    margin-left: 22%;
 }
 
 .bottom-content .text-container {
@@ -125,22 +245,43 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
+.aboutpic {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    justify-content: center;
 }
 
-footer nav a {
-    color: white;
-    text-decoration: none;
+.headlinks{
+    display: flex;
+    color: black;
+    justify-content: center;
+    margin-bottom:5rem;
 }
+
+.headlinks a {
+    text-decoration: none;
+    color: black; 
+    margin-right: 3.9rem;
+}
+.headlinks img {
+    margin-right: 3.9rem;
+}
+    footer {
+        width: 56%;
+        background: black;
+        margin-left: 22rem;
+        padding: 5px;
+        }
+    
+    footer nav {
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 2%;
+        font-size: 14px;
+        margin-right: 20%;
+    }
+    
+    footer nav a {
+        color: white;
+        text-decoration: none;
