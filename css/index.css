@@ -89,8 +89,9 @@ p {
 }
 
 .why {
-    margin-left: 80px;
-    display: block;
+    display: flex;
+    justify-content: space-around;
+    width: 62%;
 }
 .middle-content h2 {
     padding: 0 2%;
@@ -130,7 +131,7 @@ p {
 
 .box1{
     background-color: teal;
-    width: 5.5%;
+    width: 6.5%;
     height: 100px;
     margin: 20px 2.5%;
     color: white;
@@ -140,7 +141,7 @@ p {
 }
 .box2{
     background-color: gold;
-    width: 5.5%;
+    width: 6.5%;
     height: 100px;
     margin: 20px 2.5%;
     color: white;
@@ -150,7 +151,7 @@ p {
 }
 .box3{
     background-color: cadetblue;
-    width: 5.5%;
+    width: 6.5%;
     height: 100px;
     margin: 20px 2.5%;
     color: white;
@@ -160,7 +161,7 @@ p {
 }
 .box4{
     background-color: coral;
-    width: 5.5%;
+    width: 6.5%;
     height: 100px;
     margin: 20px 2.5%;
     color: white;
@@ -170,7 +171,7 @@ p {
 }
 .box5{
     background-color: crimson;
-    width: 5.5%;
+    width: 6.5%;
     height: 100px;
     margin: 20px 2.5%;
     color: white;
@@ -180,7 +181,7 @@ p {
 }
 .box6{
     background-color: forestgreen;
-    width: 5.5%;
+    width: 6.5%;
     height: 100px;
     margin: 20px 2.5%;
     color: white;
@@ -190,7 +191,7 @@ p {
 }
 .box7{
     background-color: darkorchid;
-    width: 5.5%;
+    width: 6.5%;
     height: 100px;
     margin: 20px 2.5%;
     color: white;
@@ -200,7 +201,7 @@ p {
 }
 .box8{
     background-color: hotpink;
-    width: 5.5%;
+    width: 6.5%;
     height: 100px;
     margin: 20px 2.5%;
     color: white;
@@ -210,7 +211,7 @@ p {
 }
 .box9{
     background-color: indigo;
-    width: 5.5%;
+    width: 6.5%;
     height: 100px;
     margin: 20px 2.5%;
     color: white;
@@ -220,7 +221,7 @@ p {
 }
 .box10{
     background-color: dodgerblue;
-    width: 5.5%;
+    width: 6.5%;
     height: 100px;
     margin: 20px 2.5%;
     color: white;
