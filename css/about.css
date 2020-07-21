@@ -31,24 +31,31 @@ html, body {
 body {
     line-height: 1;
 }
-
+.firstpara{
+    border-bottom: 1px dashed;
+    width:73%;
+}
 .aboutplan{
     width: 40%;
-    padding: 10px;   
+    padding: 12px; 
+    border-bottom: 1px dashed;
 }
 
 .aboutworking {
     width: 40%;
     padding: 10px; 
+    border-bottom: 1px dashed;
 }
 
 .workplace {
     width: 40%;
     padding: 10px; 
+    border-bottom: 1px dashed;
 }
 .aboutmeeting {
     width: 40%;
     padding: 10px; 
+    border-bottom: 1px dashed;
 }
 
 .container1 {
@@ -66,7 +73,9 @@ section {
 p {
    display: inline-block; 
    justify-content: center;
-   padding: 10px;
+   padding: 15px;
+ 
+
 }
 
 .button1 {
@@ -77,6 +86,7 @@ p {
     height: 13%;
     padding: 10px;
 }
+
 .button2 {
     border-radius: 20px;
     border-color: black;
