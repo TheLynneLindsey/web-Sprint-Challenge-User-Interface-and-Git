@@ -25,6 +25,30 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
 }
+h1,{
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+margin-top: 5rem
+justify-content: center;
+}
+
+h4 {
+    margin-top: 5rem
+}
+
+p {
+   display: inline-block; 
+   justify-content: center;
+}
+button {
+    border-radius: 20px;
+    border-color: black;
+    width: 8%;
+    
+}
 ol, ul {
     list-style: none;
 }
